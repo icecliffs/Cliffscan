@@ -1,0 +1,8 @@
+scapy
+tqdm
+python-nmap
+urllib3
+requests
+bs4
+click
+ijson
