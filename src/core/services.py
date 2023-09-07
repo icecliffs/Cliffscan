@@ -19,6 +19,18 @@ class Scanner:
         except IOError as e:
             print(e)
 
+    def scan_hosts(self):
+        
+
+class Parser:
+    def __init__(self, parse_str):
+        self.parse_str = parse_str
+    # RFC 4251
+    def ssh_parse(self):
+        return
+
+
+
 
 ip = "192.168.233.234"
 test_ports = [
