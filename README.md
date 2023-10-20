@@ -6,17 +6,24 @@
 
 ## Cliffscan - A scanner tool for cyberspace assets
 
-> 适用于 CISCN 2023 Final Build ~~应付式写法，下次在用Python写扫描器我就是傻逼，目前正在用别的语言重构~~
+> 适用于 CISCN 2023 Final Build ~~应付式写法，下次在用Python写扫描器我就是傻逼，目前正在用别的语言重构
 
-> 狗屎一般的代码，放上来鞭打下自己，这玩意说白了就是Python版的Nmap，相对于python-nmap这个库还是有很大的差距的
+### 技术栈
+
+- Goland开发
+- React.js前端
+- SQLite3数据库
+- Material Design
 
 ### 功能
 
+- 写了个UI（新功能）
 - 判断资产是否存活
 - 扫描资产所开放的端口
 - 识别资产服务指纹
 - 识别蜜罐
 - 识别设备
+- 识别目标服务所存在的漏洞（OWASP Top 10）
 - 大量IP批量扫描（为此而生）
 - **资产指纹来源nmap，解析使用 [https://github.com/boy-hack/nmap-parser](https://github.com/boy-hack/nmap-parser)**
 
